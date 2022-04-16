@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version="2" class="sg-campaigns" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!--[if !mso]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--<![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+    <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+      body {width: 600px;margin: 0 auto;}
+      table {border-collapse: collapse;}
+      table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+      img {-ms-interpolation-mode: bicubic;}
+    </style>
+    <![endif]-->
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+
+    <style type="text/css">
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        body,
+        p,
+        div {
+            font-family: arial;
+            font-size: 14px;
+        }
+
+        body {
+            color: #F8EEEE;
+        }
+
+
+        p {
+            margin: 0;
+            padding: 5px;
+            color: #000;
+            font-size: 16px;
+        }
+
+        h1 {
+            color: #000;
+            font-size: 28px;
+        }
+
+        h2 {
+            margin: 0;
+            line-height: 150%;
+            color: #000;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        h3 {
+            margin: 0;
+            color: #ddd;
+            font-size: 10px;
+            line-height: 150%;
+            font-weight: normal;
+        }
+
+        h4 {
+            color: #000;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 100%;
+        }
+
+        .font-weight-900 {
+            font-weight: 900;
+        }
+
+        .font-weight-700 {
+            font-weight: 700;
+        }
+
+        .alt-tag-style {
+            color: #fff;
+            text-decoration: none;
+            font-family: Helvetica, arial, sans-serif;
+            font-size: 16px;
+            line-height: 150%;
+            background-color: #1A052A;
+        }
+
+
+
+        table.wrapper {
+            width: 100% !important;
+            table-layout: fixed;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: 100%;
+            -moz-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        img.max-width {
+            max-width: 100% !important;
+        }
+
+        .column.of-2 {
+            width: 50%;
+        }
+
+        .column.of-3 {
+            width: 33.333%;
+        }
+
+        .column.of-4 {
+            width: 25%;
+        }
+
+        .showmobile {
+            display: none !important;
+            width: 0px !important;
+            height: 0px !important;
+        }
+
+        .howto {
+            padding: 0px 15px 0px 15px !important;
+            border-radius: 28px !important;
+            border: 3px solid #cfcfcf !important;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 20px !important;
+            font-size: 16px !important;
+            background-color: #FF6E36;
+            color: #fff;
+            text-decoration: none;
+        }
+
+
+        /*=========================  */
+        /* PADDING Y => VERTICAL PADDING START */
+        /*=========================  */
+
+        .py-2 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .py-1 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+
+
+        /*=========================  */
+        /* PADDING Y => VERTICAL PADDING END */
+        /*=========================  */
+
+        /*=========================  */
+        /* PADDING X => HOTIZONTAL PADDING START */
+        /*=========================  */
+
+        .px-2 {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .px-1 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        /*=========================  */
+        /* PADDING X => HOTIZONTAL PADDING END */
+        /*=========================  */
+
+        /*=========================  */
+        /* padding left,right, bottom, top START */
+        /*=========================  */
+        .pb-2 {
+            padding-bottom: 20px;
+        }
+
+        .pt-2 {
+            padding-top: 20px;
+        }
+
+        .pl-2 {
+            padding-left: 20px;
+        }
+
+        .pr-2 {
+            padding-right: 20px;
+        }
+
+        .pb-1 {
+            padding-bottom: 10px;
+        }
+
+        .pt-1 {
+            padding-top: 10px;
+        }
+
+        .pl-1 {
+            padding-left: 10px;
+        }
+
+        .pr-1 {
+            padding-right: 10px;
+        }
+
+
+
+        /*=========================  */
+        /* padding left,right, bottom, top END */
+        /*=========================  */
+
+        @media screen and (max-width: 540px) {
+            .d-block-mob {
+                display: block !important;
+            }
+
+            .w-100-mob {
+                width: 100% !important;
+            }
+
+            .max-w-100-mob {
+                max-width: 100%;
+            }
+
+            td.no-collapse-mobile {
+                display: inline-block !important;
+                max-width: 100% !important;
+                box-sizing: border-box;
+            }
+
+
+            .py-2 {
+                padding-top: 10px !important;
+                padding-bottom: 10px !important;
+            }
+
+            .px-2 {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .py-1 {
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+            }
+
+            .px-1 {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+            }
+
+            .pb-2 {
+                padding-bottom: 10px;
+            }
+
+            .pt-2 {
+                padding-top: 10px;
+            }
+
+            .pl-2 {
+                padding-left: 10px;
+            }
+
+            .pr-2 {
+                padding-right: 10px;
+            }
+
+            .pb-1 {
+                padding-bottom: 5px;
+            }
+
+            .pt-1 {
+                padding-top: 5px;
+            }
+
+            .pl-1 {
+                padding-left: 5px;
+            }
+
+            .pr-1 {
+                padding-right: 5px;
+            }
+
+        }
+
+        @media screen and (max-width:480px) {
+
+            .preheader .rightColumnContent,
+            .footer .rightColumnContent {
+                text-align: left !important;
+            }
+
+            .preheader .rightColumnContent div,
+            .preheader .rightColumnContent span,
+            .footer .rightColumnContent div,
+            .footer .rightColumnContent span {
+                text-align: left !important;
+            }
+
+            .preheader .rightColumnContent,
+            .preheader .leftColumnContent {
+                font-size: 80% !important;
+                padding: 5px 0;
+            }
+
+            table.wrapper-mobile {
+                width: 100% !important;
+                table-layout: fixed;
+            }
+
+            img.max-width {
+                height: auto !important;
+                max-width: 480px !important;
+            }
+
+            a.bulletproof-button {
+                display: block !important;
+                width: auto !important;
+                font-size: 80%;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            .columns {
+                width: 100% !important;
+            }
+
+            .column {
+                display: block !important;
+                width: 100% !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+
+            .mobhide {
+                display: none !important;
+                width: 0px !important;
+                height: 0px !important;
+            }
+
+            .bordersmob {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+
+            }
+
+            .alignmob {
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                width: 50% !important;
+
+            }
+
+            .alignmob2 {
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                width: 30% !important;
+                align: center !important;
+
+            }
+
+            table {
+                width: 100%;
+            }
+
+            td {
+                display: block;
+            }
+
+            td.no-collapse-mobile {
+                display: inline-block !important;
+                max-width: 100% !important;
+                box-sizing: border-box;
+            }
+
+            .mobslogan {
+                font-size: 26px !important;
+            }
+
+            @media (prefers-color-scheme: dark) {
+
+                /* Shows Dark Mode-Only Content, Like Images */
+                .dark-img {
+                    display: block !important;
+                    width: auto !important;
+                    overflow: visible !important;
+                    float: none !important;
+                    max-height: inherit !important;
+                    max-width: inherit !important;
+                    line-height: auto !important;
+                    margin-top: 0px !important;
+                    visibility: inherit !important;
+                }
+
+                /* Hides Light Mode-Only Content, Like Images */
+                .light-img {
+                    display: none !important;
+                    width: auto !important;
+                    overflow: visible !important;
+                    float: none !important;
+                    max-height: inherit !important;
+                    max-width: inherit !important;
+                    line-height: auto !important;
+                    margin-top: 0px !important;
+                }
+
+                /* Custom Dark Mode Background Color */
+                .darkmode {
+                    background-color: #000 !important;
+                }
+
+                /* Custom Dark Mode Background Color */
+                .darkblock {
+                    background-color: #000 !important;
+                }
+
+                /* Custom Dark Mode Footer Background Color */
+                .darkfoot {
+                    background-color: #000 !important;
+                }
+
+                /* Custom Dark Mode Font Colors */
+                h1,
+                h2,
+                h4,
+                p,
+                b,
+                a {
+                    color: #efefef !important;
+                }
+
+
+            }
+
+
+
+        }
+    </style>
+    <!--user entered Head Start-->
+
+    <!--End Head user entered-->
+</head>
+
+<body>
+    <center class="wrapper"
+        data-body-style="font-size: 14px; font-family: arial; color: #9B9B9B;">
+        <div class="webkit">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="wrapper">
+                <tr>
+                    <td valign="top" width="100%" bgcolor="#351c48" style="background-color: #fefefe">
+                        <table width="100%" role="content-container" class="outer" align="center" cellpadding="0"
+                            cellspacing="0" border="0">
+                            <tr>
+                                <td width="100%">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <!--[if mso]>
+                          <center>
+                          <table><tr><td width="600">
+                          <![endif]-->
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0"
+                                                    style="width: 100%; max-width:600px;" align="center">
+                                                    <tr>
+                                                        <td role="modules-container"
+                                                            style="padding: 0px 0px 0px 0px; color: #9B9B9B; text-align: left;"
+                                                            class="darkblock" width="100%" align="left">
+
+                                                            <!--LOGO START-->
+                                                            <table class="wrapper darkblock" role="module"
+                                                                data-type="image" border="0" cellpadding="0"
+                                                                cellspacing="0" width="100%"
+                                                                style="table-layout: fixed; border-top-left-radius: 10px; border-top-right-radius: 10px; max-width: 100%;"
+                                                                bgcolor="transparent">
+                                                                <tr>
+                                                                    <td style="font-size:6px; line-height:10px; padding:0;"
+                                                                        valign="top" align="center">
+                                                                        <a href="https://www.yeniben.co"
+                                                                            target="_blank">
+                                                                            <img class="max-width darkblock"
+                                                                                width="100%"
+                                                                                src="./assets/yeniben-logo.jpg" alt=""
+                                                                                border="0"
+                                                                                style="display:block;color:#000;text-decoration:none;font-family:Helvetica, arial, sans-serif;font-size:16px; height:auto !important; max-width: 100%; width: 100%;">
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--LOGO END-->
+
+
+
+                                                            <!--TEXT START-->
+                                                            <table class="module darkblock" role="module"
+                                                                data-type="text" border="0" cellpadding="0"
+                                                                cellspacing="0" width="100%"
+                                                                style="table-layout: fixed;" bgcolor="#F8EEEE">
+                                                                <tr>
+                                                                    <td style="padding:20px 50px 20px 50px; text-align: center; font-size: 18px; line-height: 130%;"
+                                                                        class="bordersmob" height="100%" valign="top">
+                                                                        <h1>
+                                                                            Welcome to Yeniben!
+                                                                        </h1>
+
+                                                                        <p>
+                                                                            Click the link below to confirm your
+                                                                            registration and verify your
+                                                                            email&nbsp;address:
+                                                                        </p>
+
+                                                                        <p>
+                                                                            <a href="https://www.yeniben.co"
+                                                                                class="btn-primary">VERIFY ACCOUNT</a>
+                                                                        </p>
+
+                                                                        <p style="padding-top: 20px;">
+                                                                            If the button doesn't work, please use the
+                                                                            link below:
+                                                                            <a href="https://www.yeniben.co"
+                                                                                style="color: #FF6E36;">https://www.yeniben.co</a>
+                                                                        </p>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--TEXT END-->
+
+
+
+
+                                                            <!--DIVIDER START-->
+                                                            <table class="module" role="module" data-type="spacer"
+                                                                border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                                style="table-layout: fixed;">
+                                                                <tr>
+                                                                    <td style="padding:5px 0px 5px 0px;"
+                                                                        role="module-content">
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--DIVIDER END-->
+
+                                                            <!--FOOTER START-->
+                                                            <table class="module darkmode" role="module"
+                                                                data-type="text" border="0" cellpadding="0"
+                                                                cellspacing="0" width="100%"
+                                                                style="table-layout: fixed; border-top-left-radius: 20px; border-top-right-radius: 20px; color:#9070a8;"
+                                                                bgcolor="transparent">
+                                                                <tr>
+                                                                    <td style="padding:20px 50px 10px 50px;  color:#ddd; border-top-left-radius: 10px; border-top-right-radius: 10px; text-align: center; font-size: 14px; line-height: 150%;"
+                                                                        class="bordersmob" height="100%" valign="top">
+                                                                        <a href="https://www.yeniben.co" style="background: #000;  display: inline-block; color: #fff; width: 24px; height: 24px; line-height: 24px; box-sizing: border-box; padding: 2.5px; margin-right: 5px;">
+                                                                            <img src="./assets/twitter.png" alt="twitter">
+                                                                        </a>
+                                                                        <a href="https://www.yeniben.co" style="background: #000;  display: inline-block; color: #fff; width: 24px; height: 24px; line-height: 24px; box-sizing: border-box; padding: 2.5px; margin-right: 5px;">
+                                                                            <img src="./assets/telegram.png" alt="telegram">
+                                                                        </a>
+                                                                        <a href="https://www.yeniben.co" style="background: #000;  display: inline-block; color: #fff; width: 24px; height: 24px; line-height: 24px; box-sizing: border-box; padding: 2.5px; margin-right: 5px;">
+                                                                            <img src="./assets/youtube.png" alt="youtube">
+                                                                        </a>
+                                                                        <a href="https://www.tiktok.com" style="background: #000;  display: inline-block; color: #fff; width: 24px; height: 24px; line-height: 24px; box-sizing: border-box; padding: 2.5px; margin-right: 5px;">
+                                                                            <img src="./assets/tiktok.png" alt="tiktok">
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding:10px 50px 10px 50px;  color:#ddd; border-top-left-radius: 10px; border-top-right-radius: 10px; text-align: justify; font-size: 14px; line-height: 150%;"
+                                                                        class="bordersmob" height="100%" valign="top">
+                                                                        <h3 style="text-align: center;">
+                                                                            <a href="https://www.yeniben.co/terms-and-conditions"
+                                                                                style="text-decoration: none; color: #ddd;">Terms&nbsp;&&nbsp;Conditions
+                                                                            </a>
+                                                                            &nbsp;&nbsp;•&nbsp;&nbsp;
+                                                                            <a href="https://www.yeniben.co/about"
+                                                                                style="text-decoration: none; color: #ddd;">Contact&nbsp;us
+                                                                            </a>
+
+                                                                        </h3>
+                                                                        <br>
+                                                                        <h3>
+                                                                            &copy; Yeniben established in Latvia.
+                                                                            YENIBEN is clothing company aiming to change
+                                                                            the world. All user rights protected by
+                                                                            Yeniben.
+                                                                        </h3>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--FOOTER END-->
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]>
+                          </td></tr></table>
+                          </center>
+                          <![endif]-->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+</body>
+
+</html>
